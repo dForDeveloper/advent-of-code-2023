@@ -2,6 +2,7 @@ These are my solutions to [Advent of Code 2023](https://adventofcode.com/2023).
 
 ## set up
   - run `nvm use` to set your node version to v20
+  - run `npm install`
 
 ## how to run
   - run `npm run <day>` where `<day>` is the name of a directory in the repository
