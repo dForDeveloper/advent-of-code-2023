@@ -24,7 +24,29 @@ describe('day10 solution', () => {
     });
   });
 
-  describe('part 2', () => {
+  describe.skip('part 2', () => {
+    it('should return the correct value using the example input 3', () => {
+      const input = readInput('day10/example-input-3');
+      const result = part2(input);
+      assert.strictEqual(result, 4);
+    });
 
+    it('should return the correct value using the example input 4', () => {
+      const input = readInput('day10/example-input-4');
+      const result = part2(input);
+      assert.strictEqual(result, 4);
+    });
+
+    it('should return the correct value using the example input 5', () => {
+      const input = readInput('day10/example-input-5');
+      const result = part2(input);
+      assert.strictEqual(result, 8);
+    });
+
+    it('should return the correct value using the example input 6', () => {
+      const input = readInput('day10/example-input-6');
+      const result = part2(input);
+      assert.strictEqual(result, 10);
+    });
   });
 });
