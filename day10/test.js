@@ -17,11 +17,11 @@ describe('day10 solution', () => {
       assert.strictEqual(result, 8);
     });
 
-    // it('should return the correct value using the puzzle input', () => {
-    //   const input = readInput('day10/input');
-    //   const result = part1(input);
-    //   assert.strictEqual(result, ?);
-    // });
+    it('should return the correct value using the puzzle input', () => {
+      const input = readInput('day10/input');
+      const result = part1(input);
+      assert.strictEqual(result, 6714);
+    });
   });
 
   describe('part 2', () => {
